@@ -1,0 +1,38 @@
+.footer{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    height                        : 200px;
+}
+.contenedor-footer{
+    width               : 90%;
+    height: 100%;
+    margin              : auto;
+    margin-top          : 60px;
+    display             : flex;
+    justify-content     : center;
+    p{
+        font-size: .7em;
+        opacity: 0.5;
+    }
+    hr{
+        height: 70px;
+    }
+   
+}
+.item-contenido{
+    margin-top: 10px;
+    display         : flex;
+    grid-gap        : 2rem;
+
+}
+.contactos{
+    text-align: justify;
+
+}
+.copy{
+   margin-top: -30px;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    grid-gap        : 1rem;
+}
